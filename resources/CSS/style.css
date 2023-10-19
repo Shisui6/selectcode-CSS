@@ -63,3 +63,46 @@ header h3 {
   line-height: normal;
   margin-top: 5px;
 }
+
+/* Projects */
+
+#projects-section {
+  padding: 0 12%;
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 15px;
+}
+
+.project {
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.project h2 {
+  margin: 0;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.project p {
+  margin-top: 7px;
+}
+
+.project-bottom {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.project-bottom p {
+  margin: 0;
+  margin-left: 10px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
